@@ -255,6 +255,7 @@ body::after{
 .love-text{
     margin-top: 15px;
     max-width: 850px;
+    text-align: justify;
 }
 
 /* =========================
