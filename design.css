@@ -471,3 +471,30 @@ body::after{
 html {
     scroll-behavior: smooth;
 }
+
+/* PROFILE PHOTO */
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile-photo img {
+    width: 180px;
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    border: 2px solid cyan;
+    box-shadow: 0 0 12px cyan, 0 0 25px cyan;
+
+    transition: 0.3s ease;
+}
+
+/* hover effect */
+.profile-photo img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px cyan, 0 0 40px cyan;
+}
