@@ -504,19 +504,9 @@ html {
     box-shadow: 0 0 20px cyan, 0 0 40px cyan;
 }
 
-.icon img {
-    width: 45px;
-    height: 45px;
-    object-fit: cover;
-
-    border-radius: 8px;
-    border: 2px solid cyan;
-    box-shadow: 0 0 8px cyan, 0 0 16px cyan;
-
-    transition: 0.3s ease;
-}
-
-.icon img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 12px cyan, 0 0 25px cyan, 0 0 40px cyan;
+.icon-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
