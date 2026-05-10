@@ -376,3 +376,98 @@ body::after{
         gap: 20px;
     }
 }
+
+/* =========================
+   ABOUT SECTION
+========================= */
+.about {
+    padding: 80px 60px;
+    color: white;
+}
+
+/* SECTION TITLE */
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: cyan;
+    text-shadow: 0 0 10px cyan;
+}
+
+/* GRID LAYOUT */
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* CARD DESIGN */
+.card {
+    background: rgba(10, 15, 30, 0.6);
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(0, 255, 255, 0.3);
+    border-radius: 15px;
+
+    padding: 25px;
+
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+
+    transition: 0.3s ease;
+}
+
+/* CARD HOVER EFFECT */
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px cyan;
+}
+
+/* TEXT */
+.card h3 {
+    color: cyan;
+    margin-bottom: 15px;
+}
+
+.card h4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.card p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* SKILLS TAGS */
+.skills {
+    margin-bottom: 10px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 5px;
+
+    border-radius: 20px;
+
+    background: rgba(0, 255, 255, 0.1);
+    border: 1px solid cyan;
+
+    color: white;
+    font-size: 14px;
+
+    transition: 0.3s ease;
+}
+
+/* TAG HOVER */
+.tag:hover {
+    background: cyan;
+    color: black;
+    box-shadow: 0 0 10px cyan;
+}
+
+/* SMOOTH SCROLL (optional but recommended) */
+html {
+    scroll-behavior: smooth;
+}
