@@ -24,7 +24,7 @@
     <section class="hero" id="hero">
 
         <div class="pfp-wrapper">
-            <img src="IMAGES/MyPFP.jpg" alt="Profile Picture">
+            <img src="IMAGES/MyPFP.jpg" alt="Profile Picture" id="myPfp">
         </div>
 
         <h1>Hi! I'm Jericho Calunsag</h1>
@@ -157,5 +157,20 @@
         <img src="IMAGES/GMAIL.png" alt="gmail" class="icon"><p class="email">jerichocalunsag2005@gmail.com</p>
     </div>
     </section>
+
+    <script>
+        // Select image
+        const myPfp = document.getElementById("myPfp");
+
+        // Create audio
+        const pfpSound = new Audio("AUDIO/click.mp3");
+
+        // Play sound on click
+        myPfp.addEventListener("click", () => {
+            pfpSound.currentTime = 0;
+            pfpSound.play();
+        });
+    </script>
+
 </body>
 </html>
