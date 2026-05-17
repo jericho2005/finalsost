@@ -453,6 +453,21 @@ body::after{
     color: #ffffff;
 }
 
+.arifont{
+    cursor: pointer;
+    color:#ff4ecd !important;
+}
+
+.sabfont{
+    cursor: pointer;
+    color:lightgreen !important;
+}
+
+.denfont{
+    cursor: pointer;
+    color:darkorchid !important;
+}
+
 .card p {
     text-align: justify;
     line-height: 1.6;
@@ -553,19 +568,4 @@ html {
 
 .pfp-wrapper img{
     cursor: pointer;
-}
-
-.arifont{
-    cursor: pointer;
-    color:#ff4ecd
-}
-
-.sabfont{
-    cursor: pointer;
-    color:lightgreen
-}
-
-.denfont{
-    cursor: pointer;
-    color: darkorchid
 }
