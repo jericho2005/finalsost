@@ -555,17 +555,17 @@ html {
     cursor: pointer;
 }
 
-.arifont h4{
+.arifont{
     cursor: pointer;
     color:#ff4ecd
 }
 
-.sabfont h4{
+.sabfont{
     cursor: pointer;
     color:lightgreen
 }
 
-.denfont h4{
+.denfont{
     cursor: pointer;
     color: darkorchid
 }
