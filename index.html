@@ -79,9 +79,9 @@
 
             <h3>Favorite Artists</h3>
             <ol>
-                <h4>Ariana Grande</h4>
-                <h4>Sabrina Carpenter</h4>
-                <h4>Denise Julia</h4>
+                <h4 class ="arifont" id="ari">Ariana Grande</h4>
+                <h4 class="sabfont" id="sab">Sabrina Carpenter</h4>
+                <h4 class="denfont" id="den">Denise Julia</h4>
             </ol>
         </div>
         <!-- SKILLS CARD -->
@@ -172,5 +172,46 @@
         });
     </script>
 
+    <script>
+        // Select image
+        const ari = document.getElementById("ari");
+
+        // Create audio
+        const arimusic = new Audio("AUDIO/ARI.mp3");
+
+        // Play sound on click
+        ari.addEventListener("click", () => {
+            pfpSound.currentTime = 0;
+            pfpSound.play();
+        });
+    </script>
+
+    <script>
+        // Select image
+        const sab = document.getElementById("sab");
+
+        // Create audio
+        const sabmusic = new Audio("AUDIO/SAB.mp3");
+
+        // Play sound on click
+        sab.addEventListener("click", () => {
+            pfpSound.currentTime = 0;
+            pfpSound.play();
+        });
+    </script>
+
+    <script>
+        // Select image
+        const den = document.getElementById("den");
+
+        // Create audio
+        const denmusic = new Audio("AUDIO/DEN.mp3");
+
+        // Play sound on click
+        den.addEventListener("click", () => {
+            pfpSound.currentTime = 0;
+            pfpSound.play();
+        });
+    </script>
 </body>
 </html>

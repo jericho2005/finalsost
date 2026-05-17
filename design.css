@@ -554,3 +554,18 @@ html {
 .pfp-wrapper img{
     cursor: pointer;
 }
+
+.arifont h4{
+    cursor: pointer;
+    color:#ff4ecd
+}
+
+.sabfont h4{
+    cursor: pointer;
+    color:lightgreen
+}
+
+.denfont h4{
+    cursor: pointer;
+    color: darkorchid
+}
